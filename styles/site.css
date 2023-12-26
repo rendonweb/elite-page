@@ -7,7 +7,7 @@
 }
 
 .home {
-  height: 70vh;
+  height: 100vh;
 }
 
 .alert-custom {
@@ -19,6 +19,12 @@
   margin: auto;
 }
 
+.star {
+  font-size: 3em; /* Puedes ajustar el tamaño de las estrellas según tus necesidades */
+  color: #ffc107; /* Color de las estrellas (amarillo en este caso) */
+}
+
+
 .btn-custom-blue {
     background-color: #009CDE !important;
     color: white;
@@ -26,6 +32,19 @@
     padding: 30px 50px !important;
     color: #fff !important;
     width: 50%;
+}
+
+.bg-elite-blue {
+  background-color: #009CDE;
+}
+
+.text-elite-yellow {
+  color: #F8E800;
+}
+
+.extra-large-text {
+  font-size: 2em; /* Puedes ajustar el valor según tus necesidades */
+  font-weight: bold; /* Puedes ajustar el peso de la fuente si lo deseas *
 }
   
   #text {
