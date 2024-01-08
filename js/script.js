@@ -67,4 +67,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
   setTimeout(changeText, 0); // Inicia la animación después de la carga inicial
 });
+
+
   
