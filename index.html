@@ -94,12 +94,30 @@
   <div class="container mt-5">
     <div class="row">
       <div class="col-lg-3 d-flex flex-column justify-content-center">
-        <img src="assets/images/medical2.jpg" class="m-auto shadow rounded w-100" alt="" srcset="">
-        <p class="fs-5 text-center p-2 font-weight-bold">Medical Facilities</p>
+        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="text-decoration-none text-black">
+          <img src="assets/images/medical2.jpg" class="m-auto shadow rounded w-100" alt="" srcset="">
+          <p class="fs-5 text-center p-2 font-weight-bold">
+              Healthcare
+            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="10"
+              viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+              <path
+                d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+            </svg>
+          </p>
+        </a>
       </div>
       <div class="col-lg-3 d-flex flex-column justify-content-center">
-        <img src="assets/images/oficina 2.jpg" class="m-auto shadow rounded w-100" alt="" srcset="">
-        <p class="fs-5 text-center p-2">Offices</p>
+        <a href="" data-bs-toggle="modal" data-bs-target="#modalOfficesBuildings" class="text-decoration-none text-black">
+          <img src="assets/images/oficina 2.jpg" class="m-auto shadow rounded w-100" alt="" srcset="">
+          <p class="fs-5 text-center p-2">
+            Offices Buildings
+            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="10"
+            viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+            <path
+              d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+          </svg>
+          </p>
+        </a>
       </div>
       <div class="col-lg-3 d-flex flex-column justify-content-center">
         <img src="assets/images/Retailers2.png" class="m-auto shadow rounded w-100" alt="" srcset="">
@@ -117,15 +135,15 @@
       </div>
       <div class="col-lg-3 d-flex flex-column justify-content-center">
         <img src="assets/images/banco2.jpg" class="m-auto shadow rounded w-100" alt="" srcset="">
-        <p class="fs-5 text-center p-2">Banks</p>
+        <p class="fs-5 text-center p-2">Financial</p>
       </div>
       <div class="col-lg-3 d-flex flex-column justify-content-center">
         <img src="assets/images/preschool.jpg" class="m-auto shadow rounded w-100" alt="" srcset="">
-        <p class="fs-5 text-center p-2">Preschools</p>
+        <p class="fs-5 text-center p-2">Education</p>
       </div>
       <div class="col-lg-3 d-flex flex-column justify-content-center">
         <img src="assets/images/firness2.jpg" class="m-auto shadow rounded w-100" alt="" srcset="">
-        <p class="fs-5 text-center p-2">Fitness Centers</p>
+        <p class="fs-5 text-center p-2">Fitness</p>
       </div>
     </div>
   </div>
@@ -278,11 +296,11 @@
   </div>
   <!--</div>-->
 
-  <div class="container-fluid py-5 my-5">
-    <h1 class="text-center p-5">
+  <div class="container-fluid py-5 background-contact-form text-white" id="contac-us">
+    <h1 class="text-center pt-3">
       <strong class="text-uppercase">Contact Us</strong>
     </h1>
-    <form action="" class="w-50 m-auto mb-5">
+    <form action="" class="w-50 m-auto py-5">
       <div class="row mb-2">
         <div class="col-lg-12">
           <input type="text" class="form-control border-0 shadow-lg mb-2" id="" placeholder="Name">
@@ -301,7 +319,7 @@
           <textarea type="text" class="form-control border-0 shadow-lg mb-2" id="" placeholder="Give us some details?" rows="4"></textarea>
         </div>
       </div>
-      <div class="row mb-2">
+      <div class="row">
         <div class="col-lg-12">
           <button class="btn btn-custom-yellow w-100">Submit</button>
         </div>
@@ -313,12 +331,13 @@
   <div class="container-fluid p-0">
     <footer
             class="text-center text-lg-start text-white bg-elite-blue"
+
             >
       <div class="container p-4 pb-0">
         <section class="">
           <div class="row">
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 font-weight-bold">
+              <h6 class="text-uppercase mb-4 fw-bold">
                 elite cleaning Concepts, llc.
               </h6>
               <img src="assets/images/logo_blanco.png" alt="">
@@ -327,7 +346,7 @@
             <hr class="w-100 clearfix d-md-none" />
   
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 font-weight-bold">Contact Us</h6>
+              <h6 class="text-uppercase mb-4 fw-bold">Contact Us</h6>
               <p><i class="fas fa-home mr-3"></i> Office: 24/7 Customer Service 1</p>
               <p><i class="fas fa-envelope mr-3"></i> cs@elitecleaningconcepts.com</p>
               <p><i class="fas fa-phone mr-3"></i> (833) 613-5483</p>
@@ -336,7 +355,7 @@
             <hr class="w-100 clearfix d-md-none" />
 
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 font-weight-bold">
+              <h6 class="text-uppercase mb-4 fw-bold">
                 Link
               </h6>
               <p>
@@ -407,9 +426,192 @@
     </footer>
   </div>
 
+<!-- Modal healtcare -->
+<div class="modal modal-xl fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style="text-align: justify;">
+      <div class="modal-body  rounded px-5 py-3">
+        <!-- <button type="button" class="btn-close bg-white p-1" data-bs-dismiss="modal" aria-label="Close"></button> -->
+        <div class="row my-3">
+          <div class="col-lg-2">
+            <img src="assets/images/logo_elite.png" alt="">
+          </div>
+          <div class="col-lg-10">
+            <h1 class="fs-1 text-end py-4"><strong>Medical Facilities </strong></h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 text-center">
+            <img src="assets/images/medical2.jpg" class="m-auto shadow rounded w-100" alt="" srcset="">
+          </div>
+          <div class="col-lg-8 px-5">
+            <p>Keeping medical facilities clean is a crucial safety issue. Infection rates among patients are significantly higher. At Elite Cleaning Concepts, we take charge of cleaning and disinfection so healthcare professionals can focus on running their facilities and improving their patients’ lives. Our multifaceted approach integrates the latest technology, equipment, science, and protocols alongside other key program elements (e.g., leadership support, training, monitoring, and feedback mechanisms).</p>
+            <h2 class="fs-4">Total Means Complete</h2>
 
+            <div class="row" style="text-align:start">
+              <div class="col-lg-6">
+                <ul>
+                  <li>Decades of cleaning strategies and techniques based on risk assessment</li>
+                  <li>Tailored Standard Operating Procedures for all facility areas</li>
+                  <li>Deep roster of 500+ trained team members</li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li>Flexible day, night and weekend scheduling</li>
+                  <li>Cost savings through outsourced labor, equipment and liability</li>
+                  <li>Technology that monitors and assesses real-time job performance</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <h1 class="fs-1"><strong>Higher Quality Standards</strong></h1>
+
+        <div class="row mt-4">
+          <div class="col-lg-6">
+            <div>
+              <h1 class="fs-5">Thorough Through and Through</h1>
+              <p>
+                Our clients appreciate the visibility we provide on our own job performance. Our supervisors conduct thorough on-site walkthroughs to make sure every task is done the right way the first time. We also have a fleet of managers who spot-check properties from 5 pm to 12 am, ensuring every building is secure. Accountability is how we ensure everyone from field technicians and supervisors to our own executives represent Total Cleaning at its very best.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div>
+              <h1 class="fs-5">Insured for Audits and Accreditations</h1>
+              <p>
+                We are fully insured up to $2,000,000 per occurrence. Our EVS team conducts mock audits to ensure clients pass inspections and avoid fines from JACO, Florida Department of Health, and OSHA..
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row w-75 m-auto my-5">
+          <div class="col-lg-12">
+            <h1 class="fs-1 text-center"><strong>Get A FREE Quote!</strong></h1>
+            <form class="row g-3 justify-content-center">
+              <div class="col-auto">
+                <label for="inputPassword2" class="visually-hidden">Zip Code</label>
+                <input type="text" class="form-control border-0 shadow-lg" id="" placeholder="Zip Code">
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-3 shadow-lg text-white">Get Started
+                  <svg xmlns="http://www.w3.org/2000/svg" height="16" width="10"
+                    viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                    <path fill="#ffffff"
+                      d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+                  </svg>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal healtcare -->
+
+<!-- Modal Offices Buildings -->
+<div class="modal modal-xl fade" id="modalOfficesBuildings" tabindex="-1" aria-labelledby="modalOfficesBuildings" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style="text-align: justify;">
+      <div class="modal-body  rounded px-5 py-3">
+        <!-- <button type="button" class="btn-close bg-white p-1" data-bs-dismiss="modal" aria-label="Close"></button> -->
+        <div class="row my-3">
+          <div class="col-lg-2">
+            <img src="assets/images/logo_elite.png" alt="">
+          </div>
+          <div class="col-lg-10">
+            <h1 class="fs-1 text-end py-4"><strong>Offices </strong></h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 text-center">
+            <img src="assets/images/oficina 2.jpg" class="m-auto shadow rounded w-100" alt="" srcset="">
+          </div>
+          <div class="col-lg-8 px-5">
+            <p>Standard commercial cleaning services are no longer sufficient to protect lives and livelihoods. The reality is today’s employees and customers want to know their health and safety is a priority. This is why we offer an Enhanced Janitorial cleaning solution that employs science-backed cleaning and disinfection techniques. We are certified in OSHA compliance and accredited by Global Biorisk Advisory Council’s (GBAC) for outbreak prevention, response, and recovery.</p>
+            <h2 class="fs-4">Total Means Complete</h2>
+
+            <div class="row" style="text-align:start">
+              <div class="col-lg-6">
+                <ul>
+                  <li>Kitchen and restroom cleaning/restocking</li>
+                  <li>Reception area/lobby cleaning</li>
+                  <li>Pro Disinfection</li>
+                  <li>Daily carpet care</li>
+                  <li>Dusting and window washing</li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li>Waste removal</li>
+                  <li>Floor stripping, waxing and polishing</li>
+                  <li>Power washing</li>
+                  <li>Exterior and grounds maintenance</li>
+                  <li>Handyman services</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <h1 class="fs-1"><strong>Client Satisfaction Above All Else</strong></h1>
+
+        <div class="row mt-4">
+          <div class="col-lg-6">
+            <div>
+              <h1 class="fs-5">Total Accountability</h1>
+              <p>
+                Our clients appreciate the visibility we provide on our own job performance. Our supervisors conduct thorough on-site walkthroughs to make sure every task is done the right way the first time. We also have a fleet of managers who spot-check properties from 5 pm to 12 am, ensuring every building is secure. Accountability is how we ensure everyone from field technicians and supervisors to our own executives represent Total Cleaning at its very best.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div>
+              <h1 class="fs-5">Reliable Results</h1>
+              <p>
+                Our supervisors conduct weekly on-site walkthroughs to make sure every task is completed right. They also review before and after images and share those results with clients. We ask clients to submit monthly reviews of our service. If a client rates our performance low in any area, a senior manager steps in to discuss immediate corrective steps.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row w-75 m-auto my-5">
+          <div class="col-lg-12">
+            <h1 class="fs-1 text-center"><strong>Get A FREE Quote!</strong></h1>
+            <form class="row g-3 justify-content-center">
+              <div class="col-auto">
+                <label for="inputPassword2" class="visually-hidden">Zip Code</label>
+                <input type="text" class="form-control border-0 shadow-lg" id="" placeholder="Zip Code">
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-3 shadow-lg text-white">Get Started
+                  <svg xmlns="http://www.w3.org/2000/svg" height="16" width="10"
+                    viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                    <path fill="#ffffff"
+                      d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+                  </svg>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal Offices Buildings -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/utils.js"></script>
 </body>
 
 </html>
