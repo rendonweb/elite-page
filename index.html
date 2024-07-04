@@ -13,38 +13,38 @@
 </head>
 
 <body>
-  <div class="text-center d-flex flex-column justify-content-between home">
-    <div class="alert-custom shadow-lg px-5 py-3 d-flex flex-wrap justify-content-between">
-      <span id="text1"></span>
-      <span id="text2"></span>
-      <div class="btn btn-light rounded-1 ms-auto">
-        Learn More
-        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="10"
-          viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
-          <path
-            d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
-        </svg>
-      </div>
+  <div class="alert-custom shadow-sm px-5 py-2 d-flex flex-wrap justify-content-around">
+    <span id="text1"></span>
+    <span id="text2"></span>
+    <div class="btn btn-light rounded-1 ms-auto">
+      Learn More
+      <svg xmlns="http://www.w3.org/2000/svg" height="16" width="10"
+        viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+        <path
+          d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+      </svg>
     </div>
-    <nav class="navbar navbar-expand-lg mb-auto">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="assets/images/logo_elite.png" class="" alt="" srcset="" />
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item mx-2 mt-1">
-              <a class="btn btn-custom-yellow w-100 rounded-4 shadow" aria-current="page" href="#">Get A FREE Quote</a>
-            </li>
-            <li class="nav-item mx-2 mt-1">
-              <a class="btn btn-custom-yellow w-100 rounded-4 shadow" aria-current="page" href="#">FREE Manteinance
-                Services</a>
-            </li>
-          </ul>
+  </div>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/logo_elite.png" class="" alt="" srcset="" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item mx-2 mt-1">
+            <a class="btn btn-custom-yellow w-100 rounded" aria-current="page" href="#">Get A FREE Quote</a>
+          </li>
+          <li class="nav-item mx-2 mt-1">
+            <a class="btn btn-custom-yellow w-100 rounded" aria-current="page" href="#">FREE Manteinance
+              Services</a>
+          </li>
+        </ul>
+        <a href="tel:18336135483" class="text-decoration-none">
           <span class="navbar-text text-black">
             <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16"
               viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
@@ -53,21 +53,23 @@
             </svg>
             24/7 Customer Service 1 (833) 613-5483
           </span>
-        </div>
+        </a>
       </div>
-    </nav>
-    <h1 class="h1 display-1 font-weight-bold my-2">
+    </div>
+  </nav>
+  <div class="text-center d-flex flex-column justify-content-around home">
+    <h1 class="h1 display-1 font-weight-bold">
       <span id="text"></span>
     </h1>
-    <div class="mx-auto my-5">
-      <div class="mb-2">
+    <div class="mx-auto">
+      <div class="">
         <h1 class="fs-1"><strong>Get A FREE Quote!</strong></h1>
       </div>
       <div class="">
         <form class="row g-3 justify-content-center">
           <div class="col-auto">
             <label for="inputPassword2" class="visually-hidden">Zip Code</label>
-            <input type="text" class="form-control border-0 shadow-lg" id="" placeholder="Zip Code">
+            <input type="text" class="form-control border-0 shadow-sm" id="" placeholder="Zip Code">
           </div>
           <div class="col-auto">
             <button type="submit" class="btn btn-primary mb-3 shadow-lg text-white">Get Started
@@ -82,7 +84,7 @@
         <p>Your zipcode is required to check availability in your area</p>
       </div>
     </div>
-    <div class="my-2">
+    <div class="">
       <h1 class="h1"><strong>ON DEMAND Commercial Cleaning & Maintenance Services</strong></h1>
       <p class="">
         Instantly Book Highly Rated Cleaning & Maintenance Partners Within 60
@@ -282,19 +284,19 @@
           <form action="">
             <div class="row mb-2">
               <div class="col-lg-6">
-                <input type="text" class="form-control border-0 shadow-lg mb-2" id="" placeholder="Name / Nombre">
+                <input type="text" class="form-control border-0 shadow-sm mb-2" id="" placeholder="Name / Nombre">
               </div>
               <div class="col-lg-6">
-                <input type="text" class="form-control border-0 shadow-lg mb-2-" id="" placeholder="Last / Apellido">
+                <input type="text" class="form-control border-0 shadow-sm mb-2-" id="" placeholder="Last / Apellido">
               </div>
             </div>
             <div class="row mb-2">
               <div class="col-lg-6">
-                <input type="text" class="form-control border-0 shadow-lg mb-2" id=""
+                <input type="text" class="form-control border-0 shadow-sm mb-2" id=""
                   placeholder="Email / Correo Electronico">
               </div>
               <div class="col-lg-6">
-                <select class="form-control border-0 shadow-lg mb-2" name="" id="">
+                <select class="form-control border-0 shadow-sm mb-2" name="" id="">
                   <option selected>Apply To / Aplicar a:</option>
                   <option value="">Cleaning</option>
                   <option value="">Handy</option>
@@ -303,7 +305,7 @@
             </div>
             <div class="row mb-2">
               <div class="col-lg-12">
-                <div class="input-group mb-2 shadow">
+                <div class="input-group mb-2">
                   <label class="input-group-text" for="inputGroupFile01">Add Resume / Agrega Hoja de Vida</label>
                   <input type="file" class="form-control" id="inputGroupFile01">
                 </div>
@@ -350,35 +352,37 @@
   </div>
   <!--</div>-->
 
-  <div class="container-fluid py-5" id="contac-us">
-    <h1 class="text-center pt-3">
-      <strong class="text-uppercase">Contact Us</strong>
-    </h1>
-    <form action="" class="w-25 m-auto py-5">
-      <div class="row mb-2">
-        <div class="col-lg-12">
-          <input type="text" class="form-control border-0 shadow-lg mb-2" id="" placeholder="Name">
+  <div class="my-5" id="contact-us">
+    <div class="col-12 col-md-6 col-lg-4 mx-auto p-4 my-3 shadow-lg rounded">
+      <h1 class="text-center pt-3">
+        <strong class="text-uppercase">Contact Us</strong>
+      </h1>
+      <form action="" class="">
+        <div class="row mb-2">
+          <div class="col-lg-12">
+            <input type="text" class="form-control border-0 shadow-sm mb-2" id="" placeholder="Name">
+          </div>
         </div>
-      </div>
-      <div class="row mb-2">
-        <div class="col-lg-6">
-          <input type="text" class="form-control border-0 shadow-lg mb-2" id="" placeholder="Email">
+        <div class="row mb-2">
+          <div class="col-lg-6">
+            <input type="text" class="form-control border-0 shadow-sm mb-2" id="" placeholder="Email">
+          </div>
+          <div class="col-lg-6">
+            <input type="text" class="form-control border-0 shadow-sm mb-2" id="" placeholder="Phone">
+          </div>
         </div>
-        <div class="col-lg-6">
-          <input type="text" class="form-control border-0 shadow-lg mb-2" id="" placeholder="Phone">
+        <div class="row mb-2">
+          <div class="col-lg-12">
+            <textarea type="text" class="form-control border-0 shadow-sm mb-2" id="" placeholder="Give us some details?" rows="4"></textarea>
+          </div>
         </div>
-      </div>
-      <div class="row mb-2">
-        <div class="col-lg-12">
-          <textarea type="text" class="form-control border-0 shadow-lg mb-2" id="" placeholder="Give us some details?" rows="4"></textarea>
+        <div class="row">
+          <div class="col-lg-12">
+            <button class="btn btn-custom-yellow w-100">Submit</button>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <button class="btn btn-custom-yellow w-100">Submit</button>
-        </div>
-      </div>
-    </form>
+      </form>
+    </div>
   </div>
 
 
